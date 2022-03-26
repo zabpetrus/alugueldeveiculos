@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<th:block th:fragment="head">
+<meta charset="UTF-8" />
+<link th:href="@{/contents/css/styles.css}" rel="stylesheet">
+</th:block>
+</head>
+<body>
+<header th:fragment="header">
+    <h1>Thymeleaf Fragments sample</h1>
+</header>
+<nav th:fragment="navbar" >
+
+</nav>
+<div id="content">
+
+</div>
+
+<footer th:fragment="footer">
+    <a th:href="@{/privacidade}">Política de Privacidade</a> |
+</footer>
+</body>
+</html>
