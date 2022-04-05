@@ -16,6 +16,13 @@ import { ToastsComponent } from './components/seguro/toasts/toasts.component';
 import { ConfirmacaoComponent } from './components/confirmacao/confirmacao.component';
 import { PagamentoComponent } from './components/pagamento/pagamento.component';
 import { FinalComponent } from './components/final/final.component';
+import { HeaderComponent } from './contents/header/header.component';
+import { FooterComponent } from './contents/footer/footer.component';
+import { HomeComponent } from './pages/home/home.component';
+import { CarrosComponent } from './pages/carros/carros.component';
+import { TarifasComponent } from './pages/tarifas/tarifas.component';
+import { PessoalComponent } from './pages/pessoal/pessoal.component';
+import { NavComponent } from './contents/nav/nav.component';
 
 
 @NgModule({
@@ -32,7 +39,14 @@ import { FinalComponent } from './components/final/final.component';
     ToastsComponent,
     ConfirmacaoComponent,
     PagamentoComponent,
-    FinalComponent
+    FinalComponent,
+    HeaderComponent,
+    FooterComponent,
+    HomeComponent,
+    CarrosComponent,
+    TarifasComponent,
+    PessoalComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
